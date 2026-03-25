@@ -24,7 +24,7 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Akashks26/Customer_behavior_analysis.git
+git clone https://github.com/DarshanM2005/Customer_Behavior_Analysis.git
 cd Customer_behavior_analysis
 ```
 
