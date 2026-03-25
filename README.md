@@ -1,54 +1,79 @@
 # Customer_Behavior_Analysis
 Data Analytics Project showcasing customer behavior analysis using Python, PostgreSQL, and Power BI.
 
-👨🏻‍💻 Customer Behavior Data Analytics Portfolio Project
+# 👨🏻‍💻 Customer Behavior Data Analyst Portfolio Project
 
-This project demonstrates a complete, industry-level, end-to-end data analytics workflow, reflecting the real-world responsibilities of data analysts in modern business environments. It covers all major stages of analytics, including data preparation, modeling, analysis, visualization, and reporting.
+This project represents a complete, industry-standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
-📌 Project Overview
+---
 
-The objective of this project is to simulate a real-world business analytics scenario by transforming raw data into meaningful insights that support data-driven decision-making:
+## 📌 Project Overview
 
-✅ Data Preparation, Modeling & Exploratory Data Analysis (Python): Cleaned, processed, and structured raw data to make it suitable for analysis.
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-✅ Data Analysis (SQL): Performed query-based analysis to understand customer behavior, segmentation, and purchasing patterns.
+✅ **Data Preparation, Modeling & Exploratory Data Analysis (Python):** Clean and transform the raw dataset for analysis.
 
-✅ Visualization & Insights (Power BI): Designed an interactive dashboard to uncover trends and present insights in a clear and actionable format.
+✅ **Data Analysis (SQL):** Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-🛠️ How to Use This Project
-1. Clone the Repository
-git clone https://github.com/DarshanM2005/Customer_Behavior_Analysis.git
-cd Customer_Behavior_Analysis
-2. Open the Jupyter Notebook
+✅ **Visualization & Insights (Power BI):** Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-Open Customer_Shopping_Behavior_Analysis.ipynb
+---
 
-This notebook includes:
+## 🛠️ How to Use This Project
 
-Data Loading
-Data Exploration
-Data Cleaning
-Database Integration
-3. Load Data into SQL Database
-Create a database in PostgreSQL / MySQL / MS SQL Server
-Run the notebook to load the dataset into the database
-Open Customer_Behavior_Analysis.sql
-Execute queries to analyze business problems
-4. Connect SQL Database to Power BI
-Open customer_behavior_dashboard.pbix
-Explore the interactive dashboard and insights
-🗂️ Project Structure
-Customer_Behavior_Analysis/
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Akashks26/Customer_behavior_analysis.git
+cd Customer_behavior_analysis
+```
+
+### 2. Open the Jupyter Notebook
+
+Open `Customer_Shopping_Behavior_Analysis.ipynb`
+
+This file contains:
+- Data Import
+- Data Exploration
+- Data Cleaning
+- Connection to SQL Database
+
+### 3. Load Data into SQL Database
+
+- Create a database in PostgreSQL / MySQL / MS SQL Server
+- Run the Python notebook code to load data into the SQL database
+- Open `Customer_Behavior_Analysis.sql`
+- Answer Business Questions using SQL Queries
+
+### 4. Connect SQL Database to Power BI
+
+- Open `customer_behavior_dashboard.pbix`
+- Create an interactive dashboard in Power BI
+
+---
+
+## 🗂️ Project Structure
+
+```
+Customer_behavior_analysis/
 │
-├── Customer_Shopping_Behavior_Analysis.ipynb   # Python EDA & Data Processing
-├── Customer_Behavior_Analysis.sql              # SQL Analysis Queries
+├── Customer_Shopping_Behavior_Analysis.ipynb   # Python EDA & Data Prep
+├── Customer_Behavior_Analysis.sql              # SQL Business Queries
 ├── customer_behavior_dashboard.pbix            # Power BI Dashboard
-├── customer_shopping_behavior.csv              # Dataset
+├── customer_shopping_behavior.csv              # Raw Dataset
 └── README.md
-🔧 Tech Stack
-Tool	Purpose
-Python (Pandas, NumPy, Matplotlib, Seaborn)	Data Cleaning & EDA
-PostgreSQL / MySQL	Data Storage & Query Analysis
-SQLAlchemy	Database Connectivity
-Power BI	Data Visualization & Dashboard
-PowerPoint / Gamma AI	Presentation
+```
+
+---
+
+## 🔧 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Python (Pandas, NumPy, Matplotlib, Seaborn) | Data Cleaning & EDA |
+| PostgreSQL / MySQL | Data Storage & SQL Analysis |
+| SQLAlchemy | Python–Database Connection |
+| Power BI | Interactive Dashboard |
+| Gamma AI / PowerPoint | Presentation |
+
+---
